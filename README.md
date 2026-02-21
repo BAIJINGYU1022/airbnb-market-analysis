@@ -54,7 +54,7 @@ This analysis was conducted as part of a data analytics learning project.
 
 3. Market Concentration
 	•	Although professional hosts represent a minority,
-they account for a disproportionately large share of listings,
+They account for a disproportionately large share of listings,
 indicating a long-tail market structure with supply concentration
 
 4. Ratings by Host Type
@@ -86,8 +86,8 @@ airbnb-market-analysis/
 └── outputs/
     └── figures/
 
-```markdown
-## 🚀 Future Work
+```
+🚀 Future Work
 - Build predictive models for price estimation
 - Analyze geographic patterns
 - Study demand factors (reviews, availability)
