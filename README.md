@@ -1,5 +1,4 @@
-# airbnb-market-analysis:::writing{variant=standard id=81462}
-
+# airbnb-market-analysis
 Airbnb Market Analysis
 
 📌 Project Overview
@@ -95,4 +94,4 @@ indicating a long-tail market structure with supply concentration
 👩‍💻 Author
 
 Independent learning project for data analytics portfolio development.
-:::
+
