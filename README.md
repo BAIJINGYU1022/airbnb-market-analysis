@@ -72,10 +72,12 @@ indicating a long-tail market structure with supply concentration
 	•	seaborn
 	•	Jupyter Notebook
 
-📂 Repository Structure
-  airbnb-market-analysis/
-│
+## 📁 Repository Structure
+
+```text
+airbnb-market-analysis/
 ├── README.md
+├── requirements.txt
 ├── notebooks/
 │   └── airbnb_analysis.ipynb
 ├── data/
@@ -83,11 +85,13 @@ indicating a long-tail market structure with supply concentration
 │   └── processed/
 └── outputs/
     └── figures/
-🚀 Future Work
-	•	Build predictive models for price estimation
-	•	Analyze geographic patterns
-	•	Study demand factors such as reviews and availability
-	•	Compare multiple cities
+
+```markdown
+## 🚀 Future Work
+- Build predictive models for price estimation
+- Analyze geographic patterns
+- Study demand factors (reviews, availability)
+- Compare multiple cities
 
 ⸻
 
