@@ -8,19 +8,14 @@ The goal is to understand pricing patterns, host types, supply concentration, an
 
 This analysis was conducted as part of a data analytics learning project.
 
-⸻
+---
 
 ## 📊 Dataset
-- **Source:** Inside Airbnb (public dataset)
-- **Scope:** Listings data
-- **Key variables analyzed:**
-	•	price
-	•	room_type
-	•	host_id
-	•	availability_365
-	•	review_scores_rating
+- Source: Inside Airbnb (public dataset)
+- Scope: Listings data
+- Key variables: `price`, `room_type`, `host_id`, `availability_365`, `review_scores_rating`
 
-⸻
+---
 
 ## 🔍 Key Questions
 - How does price vary by room type?
@@ -62,7 +57,7 @@ This analysis was conducted as part of a data analytics learning project.
 
 ### Price Distribution by Room Type
 
-![Price Distribution](airbnb-market-analysis/outputs/figures/Price_distribution_room_type.png)
+![Price Distribution](outputs/figures/Price_distribution_room_type.png)
 
 Entire homes tend to have higher median prices and larger variability, while shared rooms are significantly cheaper and more concentrated.
 
@@ -70,7 +65,7 @@ Entire homes tend to have higher median prices and larger variability, while sha
 
 ### Supply Structure: Listings per Host
 
-![Listings per Host](airbnb-market-analysis/outputs/figures/listings_per_host.png)
+![Listings per Host](outputs/figures/listings_per_host.png)
 
 The distribution is strongly right-skewed, indicating a long-tail market where a small number of hosts control a large share of listings.
 
@@ -83,6 +78,19 @@ The distribution is strongly right-skewed, indicating a long-tail market where a
 - matplotlib
 - seaborn
 - Jupyter Notebook
+
+## Data Source
+
+The dataset used in this project is publicly available Airbnb listings data.
+
+To reproduce the analysis:
+
+1. Download the dataset from:
+   https://insideairbnb.com/get-the-data/
+
+2. Place the file in the following directory:
+
+data/raw/listings.csv
 
 ## 📁 Repository Structure
 
