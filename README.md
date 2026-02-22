@@ -76,13 +76,17 @@ indicating a long-tail market structure with supply concentration
 
 ```text
 airbnb-market-analysis/
+│
 ├── README.md
-├── requirements.txt
-├── notebooks/
-│   └── airbnb_analysis.ipynb
+├── requirements.txt   
+│
 ├── data/
 │   ├── raw/
 │   └── processed/
+│
+├── notebooks/
+│   └── airbnb_analysis.ipynb
+│
 └── outputs/
     └── figures/
 
