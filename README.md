@@ -91,6 +91,22 @@ airbnb-market-analysis/
     └── figures/
 
 ```
+
+## 📊 Key Findings
+
+### Price Distribution by Room Type
+
+![Price Distribution](outputs/figures/Price_distribution_room type.png)
+
+Entire homes tend to have higher median prices and larger variability, while shared rooms are significantly cheaper and more concentrated.
+
+---
+
+### Supply Structure: Listings per Host
+
+![Listings per Host](outputs/figures/listings_per_host.png)
+
+The distribution is strongly right-skewed, indicating a long-tail market where a small number of hosts control a large share of listings.
 🚀 Future Work
 - Build predictive models for price estimation
 - Analyze geographic patterns
