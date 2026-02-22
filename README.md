@@ -88,19 +88,18 @@ The distribution is strongly right-skewed, indicating a long-tail market where a
 
 ```text
 airbnb-market-analysis/
-│
 ├── README.md
-├── requirements.txt   
-│
-├── data/
-│   └── processed/
-│   
-│
+├── requirements.txt
 ├── notebooks/
 │   └── airbnb_analysis.ipynb
-│
+├── data/
+│   ├── raw/           
+│   └── processed/
+│       └── clean_listings.csv
 └── outputs/
     └── figures/
+        ├── price_distribution.png
+        └── listings_per_host.png
 
 ```
 
